@@ -1,6 +1,6 @@
 addEventListener("fetch", (event) => {
   event.respondWith(
-    new Response("Test", {
+    new Response("Test two", {
       status: 200,
       headers: {
         server: "deploy",
