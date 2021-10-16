@@ -1,4 +1,4 @@
-function main() {
+export function main() {
   addEventListener("fetch", (event) => {
     event.respondWith(
       new Response("Test two", {
