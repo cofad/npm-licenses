@@ -1,11 +1,3 @@
-addEventListener("fetch", (event) => {
-  event.respondWith(
-    new Response("Test two", {
-      status: 200,
-      headers: {
-        server: "deploy",
-        "content-type": "text/plain",
-      },
-    }),
-  );
-});
+import { main } from "main.ts";
+
+main();
