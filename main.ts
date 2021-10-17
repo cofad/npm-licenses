@@ -1,8 +1,8 @@
 export function main(): void {
-  addEventListener();
+  addFetchEventListener();
 }
 
-function addEventListner(): void {
+function addFetchEventListener(): void {
   addEventListener("fetch", (event) => {
     event.respondWith(handleRequest(event.request));
   });
